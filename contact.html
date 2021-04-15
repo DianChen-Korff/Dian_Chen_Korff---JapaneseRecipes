@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" href="contact.css">
+  <title> Ikigai Contact </title>
+</head>
+
+<body>
+  <div class="navbar">
+    <a href="index.html">Home</a>
+    <a href="#news">News</a>
+    <a href="#recipes">Recipes</a>
+    <a href="videos.html" alt="Ikigai-video">Videos</a>
+    <a href="contact.html">Contact</a>
+    <input type="search" placeholder="Search..">
+  </div>
+
+  <div class="flex-container">
+    <img src="IKIGAI_Logo-Wit.png" alt="Logo-Ikigai" width="504.37" height="191.25">
+  </div>
+
+  <div class="header">
+    <h1>Contact Form</h1>
+  </div>
+
+  <div class="container">
+    <form action="/action_page.php">
+      <label for="fname">First Name</label>
+      <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+      <label for="lname">Last Name</label>
+      <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+      <label for="country">Country</label>
+      <select id="country" name="country">
+        <option value="netherlands">Nederland</option>
+        <option value="belgium">Belgium</option>
+        <option value="germany">Duitsland</option>
+      </select>
+
+      <label for="subject">Subject</label>
+      <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+      <input type="submit" value="Submit">
+    </form>
+  </div>
+
+</body>
+
+</html>
